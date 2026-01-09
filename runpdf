@@ -1,0 +1,7 @@
+#! /bin/bash
+date
+xelatex main.tex
+bibtex  main.aux
+xelatex main.tex
+xelatex main.tex
+exit 0
